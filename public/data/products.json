@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "name": "Pc Gamer GB",
+        "price": 50620,
+        "category": "pc",
+        "description": "Pc gamer gama baja",
+        "image": "pc_escritorio.jpg"
+    },
+
+    {
+        "id": 2,
+        "name": "Cartucho HP",
+        "price": 5230,
+        "category": "insumos",
+        "description": "Cartucho hp 2612",
+        "image": "cartucho_hp.jpg"
+    },
+
+    {
+        "id": 3,
+        "name": "Notebook Lenovo  g460",
+        "price": 150360,
+        "category": "notebook",
+        "description": "Notebook lenovo g460/8gbram/disco500/pantalla 15",
+        "image": "notebook_lenovo.jpg"
+    },
+
+    {
+        "id": 4,
+        "name": "Cartucho Epson 195",
+        "price": 3478,
+        "category": "insumos",
+        "description": "Cartucho Epson 195 negro",
+        "image": "cartucho_epson.jpg"
+    },
+
+    {
+        "id": 5,
+        "name": "Pc Gamer AG",
+        "price": 200563,
+        "category": "pc",
+        "description": "Pc gamer gama alta",
+        "image": "pc_escritorio.jpg"
+    },
+
+    {
+        "id": 6,
+        "name": "Notebook Dell",
+        "price": 50620,
+        "category": "notebook",
+        "description": "Notebook Dell 8gb/256ssd/pantalla15",
+        "image": "notebook_dell.jpg"
+    },
+
+    {
+        "id": 7,
+        "name": "Cartucho Hp 60",
+        "price": 13580,
+        "category": "insumos",
+        "description": "Cartucho Hp 60 negro",
+        "image": "cartucho_hp.jpg"
+    },
+
+    {
+        "id": 8,
+        "name": "Cartucho Epson 135",
+        "price": 3200,
+        "category": "insumos",
+        "description": "Cartucho Epson 135 Negro",
+        "image": "cartucho_epson.jpg"
+    },
+
+    {
+        "id": 9,
+        "name": "Pc Gamer GM",
+        "price": 195630,
+        "category": "pc",
+        "description": "Pc gamer gama media",
+        "image": "pc_escritorio.jpg"
+    }
+]
