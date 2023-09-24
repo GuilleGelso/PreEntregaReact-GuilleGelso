@@ -19,10 +19,10 @@ function NavBarComp() {
 
 
             <NavDropdown title="Categorias" id="basic-nav-dropdown">
-              <NavDropdown.Item as={Link} to='category/notebook' >Notebook</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to='category/insumos' >Insumos
+              <NavDropdown.Item as={Link} to='categoria/notebook' >Notebook</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to='categoria/insumos' >Insumos
               </NavDropdown.Item>
-              <NavDropdown.Item as={Link} to='category/pc' >Pc</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to='categoria/pc' >Pc</NavDropdown.Item>
 
             </NavDropdown>
             <Nav.Link href="#link">Contacto</Nav.Link>

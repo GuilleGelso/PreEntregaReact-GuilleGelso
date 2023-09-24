@@ -1,9 +1,10 @@
 import '../App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
-import NavBar from '../components/item/NavBar';
-import ItemListContainer from '../components/item/ItemListContainer';
-import ItemDetailContainer from '../components/item/ItemDetailContainer'
+import NavBar from '../components/NavBar';
+import ItemListContainer from '../components/ItemListContainer';
+import ItemDetailContainer from '../components/ItemDetailContainer';
+import Cart from '../components/Cart';
 
 import {
   BrowserRouter,
@@ -18,8 +19,9 @@ export default function Router() {
       <NavBar />
       <Routes>
         <Route path="/" element={<ItemListContainer />} />
-        <Route path="/category/:id" element={<ItemListContainer />} />
-        <Route path="/item/:id" element={<ItemDetailContainer />} />
+        <Route path="/categoria/:categoriaId" element={<ItemListContainer />} />
+        <Route path="detalle/:detalleId" element={<ItemDetailContainer />} />
+        <Route path="/cart" element={<Cart />} />
 
       </Routes>
     </BrowserRouter>
