@@ -26,6 +26,7 @@ function NavBarComp() {
 
             </NavDropdown>
             <Nav.Link href="#link">Contacto</Nav.Link>
+           
             <CartWidget />
 
           </Nav>

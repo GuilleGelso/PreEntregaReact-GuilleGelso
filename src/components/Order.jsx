@@ -1,7 +1,7 @@
 import React from "react";
 
-const Title = ({ greeting }) => {
+const Order = ({ greeting }) => {
 	return <h1>{greeting}</h1>;
 };
 
-export default Title;
+export default Order;

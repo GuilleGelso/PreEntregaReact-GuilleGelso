@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import ItemList from "./ItemList";
-import Title from "./Title";
+import Order from "./Order";
 import {
 	collection,
 	getDocs,
@@ -40,7 +40,7 @@ export const ItemListContainer = ({ texto }) => {
 
 	return (
 		<>
-			<Title greeting={texto} />
+			<Order greeting={texto} />
 			<ItemList data={data} />
 		</>
 	);
