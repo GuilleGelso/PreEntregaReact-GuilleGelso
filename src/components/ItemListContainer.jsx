@@ -1,4 +1,8 @@
 import React, { useEffect, useState } from "react";
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+
+
 import { useParams } from "react-router-dom";
 import ItemList from "./ItemList";
 import Order from "./Order";
@@ -40,8 +44,13 @@ export const ItemListContainer = ({ texto }) => {
 
 	return (
 		<>
+		
 			<Order greeting={texto} />
+			<Container>
+			<Row>
 			<ItemList data={data} />
+			</Row>
+			</Container>
 		</>
 	);
 };

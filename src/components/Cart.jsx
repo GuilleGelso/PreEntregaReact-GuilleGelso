@@ -1,5 +1,9 @@
 import { addDoc, collection, getFirestore } from "firebase/firestore";
 import React from "react";
+import Button from 'react-bootstrap/Button';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 import { Link } from "react-router-dom";
 import { useCartContext } from "../context/CartContext";
 import CartItem from "./CartItem";
@@ -34,7 +38,7 @@ const Cart = () => {
 		return (
 			<>
 				<p>No hay elementos en el carrito</p>
-				<Link to="/">Volver a Tienda</Link>
+				<Button as={Link} to="/" variant="primary">Volver a Tienda</Button>
 			</>
 		);
 	}
@@ -44,12 +48,21 @@ const Cart = () => {
 			{cart.map((product) => (
 				<CartItem key={product.id} product={product} />
 			))}
-			<p>total: {totalPrice()}</p>
-            <button onClick={handleClick} >Finalizar Compra</button>
+
+<Container>
+<Row>
+<Col>
+<Button variant="primary" onClick={handleClick} >Finalizar Compra</Button>
             
 
-            <Link to="/" onClick={clearCart}>Volver a Tienda</Link>
-			
+            <Button as={Link} to="/" variant="primary" onClick={clearCart}>Limpiar Carrito</Button>
+			</Col>
+
+			<Col>
+            <p>Total: ${totalPrice()}</p>
+			</Col>
+			</Row>
+			</Container>
 		</>
 	);
 };
